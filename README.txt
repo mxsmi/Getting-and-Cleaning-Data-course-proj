@@ -18,4 +18,6 @@ grading, is called "run_analysis.R". This script combines the data provided into
 a single data set and does some data manipulation and cleaning to extract the data
 of interest and get it into a tidy state. After running the script, there should be 
 a dataframe called "tidy_summary" in your environment. This dataframe is a tidy
-data set with the average of each variable for each activity and each subject.
+data set with the average of each variable for each activity and each subject. 
+The script also saves the dataframe as a .txt file called "tidy_summary.txt" in the 
+working directory of this project. 

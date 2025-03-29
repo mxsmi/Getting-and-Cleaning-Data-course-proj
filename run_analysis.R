@@ -50,3 +50,5 @@ tidy_summary = tidy_data %>%
   dplyr::summarise(
     avg_val = mean(value)
   )
+
+write.table(tidy_summary, paste0(getwd(), "/tidy_summary.txt"), row.names = FALSE)
