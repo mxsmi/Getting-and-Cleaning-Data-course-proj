@@ -52,3 +52,5 @@ tidy_summary = tidy_data %>%
   )
 
 write.table(tidy_summary, paste0(getwd(), "/tidy_summary.txt"), row.names = FALSE)
+
+tidy_summary
